@@ -52,7 +52,7 @@ const CamperFeatures = ({ camper, className }) => {
       {features.map((f) => (
         <li className={s.feature} key={f.key}>
           <svg width="20" height="20" aria-hidden="true">
-            <use href={`/src/assets/icons.svg#${f.icon}`} />
+            <use href={`/icons.svg#${f.icon}`} />
           </svg>
           <span>{f.label}</span>
         </li>

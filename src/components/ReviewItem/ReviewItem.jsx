@@ -22,7 +22,7 @@ const ReviewItem = ({ name, rating, comment }) => {
                 height="16"
                 aria-hidden="true"
               >
-                <use href="/src/assets/icons.svg#icon-star" />
+                <use href="/icons.svg#icon-star" />
               </svg>
             ))}
           </div>

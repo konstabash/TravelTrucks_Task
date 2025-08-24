@@ -21,7 +21,7 @@ const FavouriteBtn = ({ camperId }) => {
         height="24"
         aria-hidden="true"
       >
-        <use href={`/src/assets/icons.svg#icon-heart`} />
+        <use href={`/icons.svg#icon-heart`} />
       </svg>
     </button>
   );

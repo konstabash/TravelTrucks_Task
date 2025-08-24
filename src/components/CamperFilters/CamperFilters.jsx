@@ -101,7 +101,7 @@ const CamperFilters = () => {
                     height="18"
                     aria-hidden="true"
                   >
-                    <use href="/src/assets/icons.svg#icon-map" />
+                    <use href="/icons.svg#icon-map" />
                   </svg>
 
                   <input
@@ -126,7 +126,7 @@ const CamperFilters = () => {
                 }
               >
                 <svg className={s.chipIcon} width="32" height="32">
-                  <use href="/src/assets/icons.svg#icon-ac"></use>
+                  <use href="/icons.svg#icon-ac"></use>
                 </svg>
                 AC
               </button>
@@ -143,7 +143,7 @@ const CamperFilters = () => {
                 }
               >
                 <svg className={s.chipIcon} width="32" height="32">
-                  <use href="/src/assets/icons.svg#icon-trans"></use>
+                  <use href="/icons.svg#icon-trans"></use>
                 </svg>
                 Automatic
               </button>
@@ -157,7 +157,7 @@ const CamperFilters = () => {
                 }
               >
                 <svg className={s.chipIcon} width="32" height="32">
-                  <use href="/src/assets/icons.svg#icon-kitchen"></use>
+                  <use href="/icons.svg#icon-kitchen"></use>
                 </svg>
                 Kitchen
               </button>
@@ -169,7 +169,7 @@ const CamperFilters = () => {
                 }
               >
                 <svg className={s.chipIcon} width="32" height="32">
-                  <use href="/src/assets/icons.svg#icon-tv"></use>
+                  <use href="/icons.svg#icon-tv"></use>
                 </svg>
                 TV
               </button>
@@ -186,7 +186,7 @@ const CamperFilters = () => {
                 }
               >
                 <svg className={s.chipIcon} width="32" height="32">
-                  <use href="/src/assets/icons.svg#icon-bath"></use>
+                  <use href="/icons.svg#icon-bath"></use>
                 </svg>
                 Bathroom
               </button>
@@ -208,7 +208,7 @@ const CamperFilters = () => {
                 }
               >
                 <svg className={s.chipIcon} width="32" height="32">
-                  <use href="/src/assets/icons.svg#icon-grid-1x2"></use>
+                  <use href="/icons.svg#icon-grid-1x2"></use>
                 </svg>
                 Van
               </button>
@@ -227,7 +227,7 @@ const CamperFilters = () => {
                 }
               >
                 <svg className={s.chipIcon} width="32" height="32">
-                  <use href="/src/assets/icons.svg#icon-grid"></use>
+                  <use href="/icons.svg#icon-grid"></use>
                 </svg>
                 Fully Integrated
               </button>
@@ -244,7 +244,7 @@ const CamperFilters = () => {
                 }
               >
                 <svg className={s.chipIcon} width="32" height="32">
-                  <use href="/src/assets/icons.svg#icon-grid-3x3"></use>
+                  <use href="/icons.svg#icon-grid-3x3"></use>
                 </svg>
                 Alcove
               </button>

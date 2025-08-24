@@ -39,7 +39,7 @@ const CamperPage = () => {
           <Reviews reviews={reviews} />
           <div className={s.ratingRowLocation}>
             <svg className={s.mapIcon} width="16" height="16">
-              <use href="/src/assets/icons.svg#icon-map"></use>
+              <use href="/icons.svg#icon-map"></use>
             </svg>
             <p>{location}</p>
           </div>

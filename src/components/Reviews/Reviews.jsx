@@ -11,7 +11,7 @@ const Reviews = ({ reviews }) => {
   return (
     <div className={s.ratingRow}>
       <svg className={s.starIcon} width="16" height="16">
-        <use href="/src/assets/icons.svg#icon-star"></use>
+        <use href="/icons.svg#icon-star"></use>
       </svg>
       <span>
         {reviewsNumber
