@@ -1,0 +1,9 @@
+.btn {
+  fill: var(--main);
+  background: none;
+  border: none;
+}
+
+.active {
+  fill: var(--button);
+}

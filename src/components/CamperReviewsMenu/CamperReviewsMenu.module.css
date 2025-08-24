@@ -1,0 +1,18 @@
+.container {
+  padding: 44px 52px;
+  width: 588px;
+  height: 641px;
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+  border-radius: 10px;
+  gap: 24px;
+}
+
+.list {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}

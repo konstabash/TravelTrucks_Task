@@ -1,0 +1,12 @@
+.ratingRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0.3rem;
+}
+
+.starIcon {
+  fill: var(--rating);
+}

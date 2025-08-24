@@ -1,15 +1,24 @@
 import { Outlet } from "react-router-dom";
-import s from "./Layout.module.css";
+import Header from "../Header/Header.jsx";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Layout = () => {
   return (
-    <div className={s.layout}>
-      <header>Header</header>
+    <>
+      <Header />
       <main>
         <Outlet />
       </main>
-      <footer>Footer</footer>
-    </div>
+      <ToastContainer
+        position="top-right"
+        autoClose={2200}
+        closeOnClick
+        pauseOnHover
+        theme="light"
+        style={{ zIndex: 99 }}
+      />
+    </>
   );
 };
 

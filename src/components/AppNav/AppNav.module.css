@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.active {
+  color: var(--button-hover);
+}

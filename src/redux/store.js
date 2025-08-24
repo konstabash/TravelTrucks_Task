@@ -1,8 +1,15 @@
 import { configureStore } from "@reduxjs/toolkit";
-import articlesReducer from "./articles/slice";
+import campersReducer, { FAV_LS_KEY } from "./campers/slice";
+import filtersReducer from "./filters/slice";
 
 export const store = configureStore({
   reducer: {
-    articles: articlesReducer,
+    campers: campersReducer,
+    filters: filtersReducer,
   },
+});
+
+store.subscribe(() => {
+  const { favorites } = store.getState().campers;
+  localStorage.setItem(FAV_LS_KEY, JSON.stringify(favorites));
 });

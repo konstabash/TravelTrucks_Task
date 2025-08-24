@@ -1,0 +1,24 @@
+.wrap {
+  height: 40px;
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.code {
+  margin: 0;
+  font-weight: 700;
+  font-size: clamp(72px, 12vw, 160px);
+  line-height: 1;
+  color: var(--button);
+  letter-spacing: -0.02em;
+}
+
+.text {
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.4;
+  color: var(--main);
+}

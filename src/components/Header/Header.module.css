@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  background-color: var(--inputs);
+}
+
+.title {
+  width: 136px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  height: 72px;
+}

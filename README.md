@@ -1,12 +1,16 @@
-# React + Vite
+# TravelTrucks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TravelTrucks** is a project built with **React + Vite** that simulates a camper rental service.  
+The project includes a camper catalog, detailed camper pages, a filtering system, favorites management, and a booking form.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse camper catalog with data from backend
+- Camper detail pages with specifications, reviews, and image gallery
+- Filters by location, vehicle type, and equipment
+- Add campers to “Favorites” (stored in localStorage)
+- Pagination with “Load more” button
+- Booking form with validation and calendar picker
+- Success notifications with **react-toastify**
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Made by @konstabash

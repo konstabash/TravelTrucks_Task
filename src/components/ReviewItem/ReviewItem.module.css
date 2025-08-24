@@ -1,0 +1,47 @@
+.headerRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background-color: var(--badges);
+}
+.avatarText {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: var(--button);
+}
+.headerMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main);
+}
+.stars {
+  display: inline-flex;
+  gap: 4px;
+}
+.star {
+  fill: var(--badges);
+}
+.starFilled {
+  fill: var(--rating);
+}
+.comment {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+}

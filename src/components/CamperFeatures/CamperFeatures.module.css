@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.feature {
+  padding: 12px 18px;
+  background-color: var(--badges);
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
