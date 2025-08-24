@@ -11,6 +11,7 @@
   max-height: 100%;
   object-fit: contain;
   display: block;
+  z-index: 50;
 }
 
 .arrow {
