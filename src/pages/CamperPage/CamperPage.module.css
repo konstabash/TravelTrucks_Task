@@ -85,6 +85,16 @@
   padding-bottom: 24px;
   text-decoration: none;
 }
+.navMenu::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc((var(--underline-thick) - var(--baseline-thin)) / 2);
+  height: var(--baseline-thin);
+  background-color: var(--gray-light);
+  pointer-events: none;
+}
 
 .active::after {
   content: "";
@@ -93,21 +103,9 @@
   right: 0;
   bottom: 0;
   height: 5px;
-  background: var(--button);
+  background-color: var(--button);
   pointer-events: none;
   width: auto;
-  z-index: 2;
-}
-
-.navMenu::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: calc((var(--underline-thick) - var(--baseline-thin)) / 2);
-  height: var(--baseline-thin);
-  background: var(--gray-light);
-  z-index: 1;
 }
 
 .outletContainer {
